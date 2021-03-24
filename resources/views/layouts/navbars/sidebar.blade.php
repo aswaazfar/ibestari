@@ -80,7 +80,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Dashboard') }}
+                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Halaman Utama') }}
                     </a>
                 </li>
                 <li class="nav-item">
@@ -107,22 +107,22 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-planet text-blue"></i> {{ __('Icons') }}
+                        <i class="ni ni-planet text-blue"></i> {{ __('Maklumat Pelajar') }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-pin-3 text-orange"></i> {{ __('Maps') }}
+                        <i class="ni ni-pin-3 text-orange"></i> {{ __('Saringan') }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-key-25 text-info"></i> {{ __('Login') }}
+                        <i class="ni ni-key-25 text-info"></i> {{ __('Ujian Bulanan') }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-circle-08 text-pink"></i> {{ __('Register') }}
+                        <i class="ni ni-circle-08 text-pink"></i> {{ __('Dokumen Pemulihan') }}
                     </a>
                 </li>
                 <li class="nav-item mb-5 bg-danger" style="position: absolute; bottom: 0;">
@@ -134,17 +134,17 @@
             <!-- Divider -->
             <hr class="my-3">
             <!-- Heading -->
-            <h6 class="navbar-heading text-muted">Documentation</h6>
+            <h6 class="navbar-heading text-muted">Tetapan (Setting)</h6>
             <!-- Navigation -->
             <ul class="navbar-nav mb-md-3">
                 <li class="nav-item">
                     <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
-                        <i class="ni ni-spaceship"></i> Getting started
+                        <i class="ni ni-spaceship"></i> Kelas/Tahun
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
-                        <i class="ni ni-palette"></i> Foundation
+                        <i class="ni ni-palette"></i> Nama Ujian
                     </a>
                 </li>
                 <li class="nav-item">

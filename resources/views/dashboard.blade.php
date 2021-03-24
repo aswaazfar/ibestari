@@ -10,8 +10,8 @@
                     <div class="card-header bg-transparent">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h6 class="text-uppercase text-light ls-1 mb-1">Overview</h6>
-                                <h2 class="text-white mb-0">Sales value</h2>
+                                <h6 class="text-uppercase text-light ls-1 mb-1">Himpunan</h6>
+                                <h2 class="text-white mb-0">Kata-kata Hikmah</h2>
                             </div>
                             <div class="col">
                                 <ul class="nav nav-pills justify-content-end">
@@ -45,15 +45,16 @@
                     <div class="card-header bg-transparent">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                                <h2 class="mb-0">Total orders</h2>
+                                <h2 class="mb-0">Kalender</h2>
                             </div>
                         </div>
                     </div>
                     <div class="card-body">
                         <!-- Chart -->
                         <div class="chart">
-                            <canvas id="chart-orders" class="chart-canvas"></canvas>
+                        <h3>Tarikh pada hari ini:</h3>
+                        <h4>{{ now()->day }}/{{ now()->month}}/{{ now()->year }}</h4>
+                        
                         </div>
                     </div>
                 </div>
